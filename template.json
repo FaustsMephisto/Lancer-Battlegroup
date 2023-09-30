@@ -8,17 +8,17 @@
           "min": 0,
           "max": 10
         },
-        "biography": ""
+        "description": ""
       }
     },
     "capitalShip": {
       "templates": ["base"],
       "attributes": {
         "points": {
-          "value": 3
+          "value": 0
         },
         "defence": {
-          "value": 10
+          "value": 0
         }
       },
       "traits&manouvers&tactics": {
@@ -45,7 +45,7 @@
         "primary": {
           "value": 1
         },
-        "auxillary": {
+        "auxilliary": {
           "value": 1
         },
         "wings": {
@@ -73,16 +73,81 @@
           "tacticName" : "",
           "tacticContent" : "",
           "tacticAmount" : 1
-        }
+        },
+        "weapons": ""
+      }
     }
   },
   "Item": {
-    "types": ["superheavy", "primary", "auxilliary", "sublineCraft", "system", "escortTemplate", "CapitalHull", "npcClass"],
+    "types": ["superheavy", "primary", "auxilliary", "sublineCraft", "system", "escortTemplate", "capitalHull", "npcClass", "tactic", "manouver"],
     "templates": {
       "base": {
-        "description": ""
+        "Name": ""
+      },
+      "superheavy": {
+        "templates": ["base"],
+        "Damage": 1,
+        "Range": "",
+        "Charge": 0,
+        "Reloading": 0,
+        "Tags": "",
+        "Effect": "",
+        "Points": 0
+      },
+      "primary": {
+        "templates": ["base"],
+        "Damage": 1,
+        "Range": "",
+        "Charge": 0,
+        "Reloading": 0,
+        "Tags": "",
+        "Effect": "",
+        "Points": 0
+      },
+      "auxilliary": {
+        "templates": ["base"],
+        "Damage": 1,
+        "Range": "",
+        "Charge": 0,
+        "Reloading": 0,
+        "Tags": "",
+        "Effect": "",
+        "Points": 0
+      },
+      "sublineCraft": {
+        "templates": ["base"],
+        "Tactics": "",
+        "Tags": "",
+        "Effect": "",
+        "Points": 0
+      },
+      "system": {
+        "templates": ["base"],
+        "Charge": 0,
+        "Reloading": 0,
+        "Tags": "",
+        "Effect": "",
+        "Tactics": "",
+        "Manouvers": "",
+        "Points": 0
+      },
+      "escortTemplate": {
+        "templates": ["base"],
+        "HP": "",
+        "Tactics": "",
+        "Tags": "",
+        "Effect": "",
+        "Manouvers": ""
+      },
+      "capitalHull": {
+        "templates": ["base"],
+        "HP": "",
+        "Tactics": "",
+        "Tags": "",
+        "Effect": "",
+        "Manouvers": ""
       }
     }
   }
 }
-}
+
