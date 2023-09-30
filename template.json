@@ -142,6 +142,7 @@
       "capitalHull": {
         "templates": ["base"],
         "HP": "",
+        "Defence": "",
         "Tactics": "",
         "Tags": "",
         "Effect": "",
