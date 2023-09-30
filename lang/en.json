@@ -1,22 +1,22 @@
 {
-  "BOILERPLATE.AbilityStr": "Strength",
-  "BOILERPLATE.AbilityCon": "Constitution",
-  "BOILERPLATE.AbilityDex": "Dexterity",
-  "BOILERPLATE.AbilityInt": "Intelligence",
-  "BOILERPLATE.AbilityWis": "Wisdom",
-  "BOILERPLATE.AbilityCha": "Charisma",
+  "BATTLEGROUP.AbilityStr": "Strength",
+  "BATTLEGROUP.AbilityCon": "Constitution",
+  "BATTLEGROUP.AbilityDex": "Dexterity",
+  "BATTLEGROUP.AbilityInt": "Intelligence",
+  "BATTLEGROUP.AbilityWis": "Wisdom",
+  "BATTLEGROUP.AbilityCha": "Charisma",
 
-  "BOILERPLATE.AbilityStrAbbr": "str",
-  "BOILERPLATE.AbilityConAbbr": "con",
-  "BOILERPLATE.AbilityDexAbbr": "dex",
-  "BOILERPLATE.AbilityIntAbbr": "int",
-  "BOILERPLATE.AbilityWisAbbr": "wis",
-  "BOILERPLATE.AbilityChaAbbr": "cha",
+  "BATTLEGROUP.AbilityStrAbbr": "str",
+  "BATTLEGROUP.AbilityConAbbr": "con",
+  "BATTLEGROUP.AbilityDexAbbr": "dex",
+  "BATTLEGROUP.AbilityIntAbbr": "int",
+  "BATTLEGROUP.AbilityWisAbbr": "wis",
+  "BATTLEGROUP.AbilityChaAbbr": "cha",
 
-  "BOILERPLATE.EffectCreate": "Create Effect",
-  "BOILERPLATE.EffectToggle": "Toggle Effect",
-  "BOILERPLATE.EffectEdit": "Edit Effect",
-  "BOILERPLATE.EffectDelete": "Delete Effect",
+  "BATTLEGROUP.EffectCreate": "Create Effect",
+  "BATTLEGROUP.EffectToggle": "Toggle Effect",
+  "BATTLEGROUP.EffectEdit": "Edit Effect",
+  "BATTLEGROUP.EffectDelete": "Delete Effect",
 
-  "BOILERPLATE.Add": "Add"
+  "BATTLEGROUP.Add": "Add"
 }
