@@ -1,0 +1,88 @@
+{
+  "Actor": {
+    "types": ["capitalShip", "npc", "sublineCraft"],
+    "templates": {
+      "base": {
+        "HP": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "biography": ""
+      }
+    },
+    "capitalShip": {
+      "templates": ["base"],
+      "attributes": {
+        "points": {
+          "value": 3
+        },
+        "defence": {
+          "value": 10
+        }
+      },
+      "traits&manouvers&tactics": {
+        "traits": {
+          "traitName" : "",
+          "traitContent" : "",
+          "traitAmount" : 1
+        },
+        "manouvers" : {
+          "manouverName" : "",
+          "manouverContent" : "",
+          "manouverAmount" : 1
+        },
+        "tactics" : {
+          "tacticName" : "",
+          "tacticContent" : "",
+          "tacticAmount" : 1
+        }
+      },
+      "options": {
+        "superheavy": {
+          "value": 1
+        },
+        "primary": {
+          "value": 1
+        },
+        "auxillary": {
+          "value": 1
+        },
+        "wings": {
+          "value": 1
+        },
+        "escorts": {
+          "value": 1
+        }
+      }
+    },
+    "npc": {
+      "templates": ["base"],
+      "traits&manouvers&tactics": {
+        "traits": {
+          "traitName" : "",
+          "traitContent" : "",
+          "traitAmount" : 1
+        },
+        "manouvers" : {
+          "manouverName" : "",
+          "manouverContent" : "",
+          "manouverAmount" : 1
+        },
+        "tactics" : {
+          "tacticName" : "",
+          "tacticContent" : "",
+          "tacticAmount" : 1
+        }
+    }
+  },
+  "Item": {
+    "types": ["superheavy", "primary", "auxilliary", "sublineCraft", "system", "escortTemplate", "CapitalHull", "npcClass"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    }
+  }
+}
+}
